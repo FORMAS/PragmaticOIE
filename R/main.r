@@ -1,16 +1,18 @@
 ## Sets workspace
+
+# UPDATE THIS PATH
 work_space <- "/home/cflsena/Documentos/Github/R/PragmaticOIE"
 setwd(work_space)
 
 ## List of used packages
-#list.of.packages <- c("rJava", "stringr", "NLP", "stringi")
+list.of.packages <- c("rJava", "stringr", "NLP", "stringi", "SnowballC")
 
 ## Returns a list of uninstalled packages
-#new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 
 ## Install new packages
-#if(length(new.packages))
-#  install.packages(new.packages)
+if(length(new.packages))
+  install.packages(new.packages)
 
 ## Load sentences
 dataset <-
