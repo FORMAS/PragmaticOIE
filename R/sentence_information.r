@@ -1,6 +1,7 @@
 ## Initializes The Java Viritual Machine with SentenceAnalyzer.jar
+
 .jinit(
-  "/home/cflsena/Documentos/Github/R/PragmaticOIE/SentenceAnalyzer/dist/SentenceAnalyzer.jar"
+  "SentenceAnalyzer/dist/SentenceAnalyzer.jar"
 )
 ## Get the class object in the path below
 object <- .jnew("sentenceanalyzer/SentenceAnalyzer")
